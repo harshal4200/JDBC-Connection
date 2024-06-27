@@ -1,0 +1,10 @@
+import java.sql.Connetion;
+import java.sql.DriverManager;
+
+public class Main{
+public static void main(String args[]){
+try{
+Connection jdbc=DriverManager.getConnection("(your url:........)",("user...."),"(your password:........)";
+}catch(Exception e){
+}
+}
