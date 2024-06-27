@@ -4,7 +4,12 @@ import java.sql.DriverManager;
 public class Main{
 public static void main(String args[]){
 try{
-Connection jdbc=DriverManager.getConnection("(your url:........)",("user...."),"(your password:........)";
+String url="jdbc:mysql://localhost:3306/sql";
+String username="root";
+String password="........";
+
+Connection jdbc=DriverManager.getConnection(url,username,password);
+System.Out.Println("Connection Successful👍");
 }catch(Exception e){
 }
 }
